@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '~> 3.2'
 
-gem 'faraday'
+gem 'faraday', '>= 2.14.1'
 gem 'html-proofer', '~> 3.0'
 gem 'jekyll', '~> 4.3'
 gem 'jekyll-paginate'
@@ -19,7 +19,7 @@ gem 'rubocop', group: :test
 
 # All of this is for Slate / middleman
 
-gem "middleman", '~> 4.6'
+gem "middleman", "~> 4.6", ">= 4.6.3"
 gem 'middleman-sprockets'
 
 # For syntax highlighting
